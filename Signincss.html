@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign In!</title>
+    <style>
+        body {
+            font-family: Mariya Simone;
+            margin: 0;
+            padding: 0;
+            background-image:url('https://i.pinimg.com/736x/50/8e/ed/508eedadbba0f2b001d1f9ad88235a18.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            color: white;
+            font-size: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        h1 {
+            font-family: Predikat Oneday;
+            font-size: 80px;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            margin: 0;
+        }
+
+        .form-container {
+            background-color: rgba(0, 0, 0, 0.8);
+            border: 2px solid rgba(255, 255, 255, 0.3);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+            padding: 20px;
+            width: 300px;
+            margin: 20px auto;
+        }
+
+        .form-container h2 {
+            background-color: rgba(255, 255, 255, 0.2);
+            color: white;
+            padding: 10px;
+            margin: -20px -20px 20px -20px;
+            border-radius: 10px 10px 0 0;
+            text-align: center;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+
+        input[type="text"],
+        input[type="email"],
+        input[type="password"] {
+            width: 95%;
+            padding: 8px;
+            margin-bottom: 10px;
+            border: 0px solid #ccc;
+            border-radius: 2px;
+        }
+
+        input[type="checkbox"] {
+            margin-right: 5px;
+        }
+
+        button {
+            width: 100%;
+            background-color: #4CAF50;
+            color: white;
+            padding: 10px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 15px;
+        }
+
+        button:hover {
+            background-color: #45a049;
+        }
+footer {
+    background-color: rgba(0, 0, 0, 0.7); 
+    color: #FDF5E6; 
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+        footer a {
+            color: #4CAF50;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Sign in to Explore!</h1>
+
+    <div class="form-container">
+        <h2>Sign In!</h2>
+        <form action="index1.html" method="get">
+            <label for="signin-username">Username:</label>
+            <input type="text" id="signin-username" name="signin-username" required>
+
+            <label for="signin-email">Email:</label>
+            <input type="email" id="signin-email" name="signin-email" required>
+
+            <label for="signin-password">Password:</label>
+            <input type="password" id="signin-password" name="signin-password" required><br>
+
+            <button type="submit">Sign In</button>
+
+	    <p>Don't have an account? <a href="SignUp2.html">Sign Up!</a></p>
+        </form>
+    </div>
+    <footer>
+        Contact me: Harinisri Balaji 23BCT0019 || harinisri.b2023@vitstudent.ac.in
+    </footer>
+</body>
+</html>

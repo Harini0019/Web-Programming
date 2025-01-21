@@ -1,0 +1,92 @@
+
+body {
+    margin: 0;
+    font-family: Courier New;
+    background-image: url('https://i.pinimg.com/736x/b7/30/d0/b730d0518814c167021ce3509ce62e44.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333; 
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+
+header {
+    background-color: rgba(0, 0,0, 0.9); 
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 3em;
+    font-family: Perpetua;
+    color: White; 
+}
+
+nav {
+    margin-top: 10px;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li {
+    display: inline;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #FDF5E6; /* Light cream color */
+    font-size: 1.2em;
+    padding: 10px 15px;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+nav ul li a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+
+/* Main Content Styling */
+main {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+main h2 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    font-family: High Tower Text;
+    color: white; 
+}
+
+main p {
+    font-size: 1.2em;
+    line-height: 1.6;
+    max-width: 800px;
+    margin: 0 auto;
+    color: white; 
+}
+
+/* Footer Styling */
+footer {
+    background-color: rgba(0, 0, 0, 0.9); 
+    color: #FDF5E6; 
+    text-align: center;
+    padding: 15px 10px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 1em;
+}
